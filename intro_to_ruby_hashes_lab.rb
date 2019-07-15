@@ -13,6 +13,7 @@ end
 
 def id_generator
   hash= {:id => rand(*100).to_i}
+  return hash
 end
 
 def my_hash_creator(key, value)
