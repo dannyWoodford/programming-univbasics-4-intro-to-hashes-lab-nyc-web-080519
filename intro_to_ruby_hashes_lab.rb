@@ -12,7 +12,7 @@ def pioneer
 end
 
 def id_generator
-  hash= {:id => Math.random}
+  hash= {:id => rand()}
 end
 
 def my_hash_creator(key, value)
